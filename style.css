@@ -52,6 +52,7 @@ h1{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    transform: translateX(-1em);
 }
 .container--btn, .container--btn:visited {
     background: rgb(206, 0, 51);
