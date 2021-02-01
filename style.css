@@ -53,6 +53,7 @@ h1{
     justify-content: space-between;
     align-items: center;
     transform: translateX(-1em);
+    position: relative;
 }
 .container--btn, .container--btn:visited {
     background: rgb(206, 0, 51);
@@ -65,6 +66,10 @@ h1{
     text-transform: uppercase;
     font-size: 0.6em;
     padding: 1em;
+    position: absolute;
+    right: 0;
+    top: 39.9px;
+    transform: translateY(1em);
 }
 .container p{
     width: 70%;
@@ -149,7 +154,7 @@ pre {
     .container {
         width: 80%;
         flex-direction: column;
-        text-align: center;
+        align-items: flex-start;
     }
     .block__title{
         flex-direction: column;
@@ -169,8 +174,11 @@ pre {
     .container2{
         text-align: initial;
     }
+    button{
+        width: 70%;
+    }
     code {
-        font-size: 0.8em;
+        font-size: 0.78em;
         display: flex;
         justify-content: flex-end;
     }
@@ -182,5 +190,14 @@ pre {
     }
     .random{
         width: 50%;
+    }
+    .container--btn{
+        top: 100%;
+        right: 50%;
+        transform: translate(50%, -120%);
+    }
+    .container p{
+        padding-bottom: 30px;
+        width: 100%;
     }
 }
