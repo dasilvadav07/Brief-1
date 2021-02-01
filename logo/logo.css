@@ -1,0 +1,39 @@
+﻿body
+{
+}
+/*logo simplon*/
+.logo-simplon {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.rond {
+    width: 100%;
+    height: 100%;
+    border: 2.5px solid rgb(206, 0, 51);
+    border-radius: 50%;
+    margin: 0;
+    position: relative;
+}
+
+.carré {
+    width: 15%;
+    height: 15%;
+    background: rgb(206, 0, 51);
+}
+
+    .carré:last-child {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+
+    .carré:first-child {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -150%);
+    }
+/*fin logo*/
